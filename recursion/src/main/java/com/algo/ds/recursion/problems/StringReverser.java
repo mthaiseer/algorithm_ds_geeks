@@ -1,4 +1,4 @@
-package com.algo.ds.recursion.all;
+package com.algo.ds.recursion.problems;
 
 public class StringReverser {
 	

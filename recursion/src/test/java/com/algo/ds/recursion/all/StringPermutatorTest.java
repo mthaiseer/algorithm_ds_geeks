@@ -9,6 +9,8 @@ import java.util.List;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import com.algo.ds.recursion.problems.StringPermutator;
+
 public class StringPermutatorTest {
 	
 	
@@ -33,6 +35,7 @@ public class StringPermutatorTest {
 		String word = "ABCDEF";
 		List<String> actual  =  permutator.permute(word, 0, word.length(), "", new ArrayList<>());
 		assertThat(actual).isNotNull();
+		assertThat(actual.size()).isEqualTo(64);
 	}
 	
 	

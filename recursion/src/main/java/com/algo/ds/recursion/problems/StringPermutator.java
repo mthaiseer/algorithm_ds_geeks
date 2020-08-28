@@ -1,4 +1,4 @@
-package com.algo.ds.recursion.all;
+package com.algo.ds.recursion.problems;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,7 @@ public class StringPermutator {
 	
 	/**
 	 * 
-	 *    ABC            
+	 *        ABC            
 	 *                     "" 
 	 *                  /      \
 	 *   			   ""       A
