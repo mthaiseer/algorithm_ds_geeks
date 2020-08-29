@@ -82,7 +82,7 @@ public class BinarySearchTest {
 	}
 	
 	@Test
-	void testBinarySearchRecusrsionNull() {
+	void testBinarySearchRecursionNull() {
 
 		int[] arr = null;
 		int actualIndex = binarySearch.searchRecursion(arr, 100);
@@ -102,7 +102,5 @@ public class BinarySearchTest {
 		assertThat(actualIndex).isEqualTo(11);
 		
 	}
-	
-
 
 }
